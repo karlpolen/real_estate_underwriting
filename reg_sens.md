@@ -46,9 +46,9 @@ summary(rent_lm)
 ## F-statistic: 60.29 on 1 and 19 DF,  p-value: 2.604e-07
 ```
 
-Note the standard error of the residual is $2.783.  You could use that as the estimate of the one sigma standard error on your estimate of base case rent.  Rounding to $3 for that estimate, your range on rent for sensitivity would be 20, 23, 26, 29 and 32.  This is a bit narrower than what you used.  As Paige noted, unless you remove the trend the volatility in rent estimates is exaggerated.  The regression analysis does this for you.
+Note the standard error of the residual is $2.783.  You could use that as the estimate of the one sigma standard error on your estimate of base case rent.  Rounding to $3 for that estimate, your range on rent for sensitivity would be 20, 23, 26, 29 and 32.  This is a bit narrower than what you used.  Unless you remove the trend the volatility in rent estimates is exaggerated.  The regression analysis does this for you.
 
-Note the slope of the regression shows rental increase $.7787 per year.  On a base case rent of $26, this is a growth rate of 2.99%.  That's pretty close to what you used.
+Note the slope of the regression shows rental increase $.7787 per year.  On a base case rent of $26, this is a growth rate of 2.99%.  That's pretty close to what was used.
 
 However, the standard error on this growth is only $.1004 per year.  So, the two sigma confidence interval on rental growth based on this regression analysis is from 2.22% to 4%.  This feels too narrow to me.
 
