@@ -1,0 +1,579 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Modeling for ASRS
+\end_layout
+
+\begin_layout Section
+Purpose
+\end_layout
+
+\begin_layout Standard
+The purpose of this paper is to share standards and expectations on modeling
+ for ASRS projects.
+\end_layout
+
+\begin_layout Section
+The ASRS model
+\end_layout
+
+\begin_layout Standard
+ASRS has provided a standard model for stating forecasts.
+ Please use it.
+\end_layout
+
+\begin_layout Standard
+We have established a standard for the following reasons:
+\end_layout
+
+\begin_layout Itemize
+It incorporates valuation and accounting mechanics in accordance with our
+ requirements
+\end_layout
+
+\begin_layout Itemize
+It provides quarterly performance measurement metrics in the form we require
+\end_layout
+
+\begin_layout Itemize
+It incorporates a checklist of undewriting issues for quanitification
+\end_layout
+
+\begin_layout Itemize
+It makes it easier to review and compare projects when they are submitted
+ in a standard form.
+\end_layout
+
+\begin_layout Standard
+The ASRS model is flexible.
+ We will work with you to help understand how to use it and, to the extent
+ you need our help, to customize it to your particular situation.
+\end_layout
+
+\begin_layout Standard
+The ASRS model is designed around an investor perspective.
+ It may not provide the type of detail an operator wants for its purposes.
+ You can add that detail in separate tabs, or maintain it separately.
+\end_layout
+
+\begin_layout Section
+Modeling practices
+\end_layout
+
+\begin_layout Itemize
+Models must be self contained.
+ You may copy information from other files for your reference.
+ 
+\emph on
+Please do not link to other files.
+\end_layout
+
+\begin_layout Itemize
+Follow color coding conventions.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Hard wire
+\begin_inset Quotes erd
+\end_inset
+
+ numbers and assumptions should be color coded in blue.
+ Formulas should be black.
+\end_layout
+
+\begin_layout Itemize
+Avoid redundancy
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Generally speaking, a hard coded number (color coded blue) should appear
+ in the spreadsheet exactly once.
+\end_layout
+
+\begin_layout Itemize
+In the ASRS spreadsheet, we establish a timeline on a tab for that purpose
+ and then refer to that by formula on every other sheet
+\end_layout
+
+\begin_layout Itemize
+Except for the timeline, avoid the temptation to copy data from one calculation
+ sheet to another.
+ It is less convenient when creating formulas to refer to other sheets,
+ but if you create redundancy in your data to avoid that you will create
+ a source of error.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Use tree shaped data structures
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+More detailed tabs should feed in to summary tabs
+\end_layout
+
+\begin_layout Itemize
+A detail tab should feed in to only one summary tab
+\end_layout
+
+\begin_layout Itemize
+The exception is financial statement tabs where, for example, operating
+ cash flow feeds to both the cash flow statement and the income statement
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Distinguish your calculation worksheets from your reports
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+All your analysis and data tracking should be done on calculation worksheets.
+ These are the brown colored tabs on the ASRS model.
+\end_layout
+
+\begin_layout Itemize
+You then summarize and format that information for communication to readers
+ of your analysis on separate report tabs.
+ These are the blue, red and green tabs on the ASRS model.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+avoid any additional analysis or calculations on your summary and report
+ tabs
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Section
+The point of modeling
+\end_layout
+
+\begin_layout Standard
+From an investor perspective, the purpose of modeling is to assess the probabili
+ty that a given project will earn an appropriate rate of return for the
+ risks associated with the project.
+ We want you to focus on what you might call the 
+\begin_inset Quotes eld
+\end_inset
+
+big moving parts
+\begin_inset Quotes erd
+\end_inset
+
+ of the risks that drive the returns.
+ We consciously adopt risk in doing real estate projects.
+ A good pro forma clearly communicates the risks you have decided to take
+ and how you expect to be compensated for them.
+\end_layout
+
+\begin_layout Standard
+So, in a typical real estate project the return is determined as follows:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Return=f(Price,Rent,OpEx,CapEx,CapMarket)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where:
+\end_layout
+
+\begin_layout Itemize
+Price is the price you pay for the asset plus transaction costs and working
+ capital balances (operating cash)
+\end_layout
+
+\begin_layout Itemize
+Rent is the rent you expect to receive
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Rent from existing leases, less credit loss
+\end_layout
+
+\begin_layout Itemize
+Rent from future leases, less free rent and vacancy on turnover
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+OpEx is operating expenses
+\end_layout
+
+\begin_layout Itemize
+CapEx is capital expenditures
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Renovations
+\end_layout
+
+\begin_layout Itemize
+TIs and Leasing Commissions (amortized over lease terms in the model)
+\end_layout
+
+\begin_layout Itemize
+Replacements and betterments that would be capitalized under GAAP
+\end_layout
+
+\begin_layout Itemize
+Reserves maintained as cash if required under loans and then used for CapEx
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+CapMarket is expected future interest rates and exit cap rates
+\end_layout
+
+\begin_layout Standard
+So, the risk analysis varies depending on the project.
+ A single tenant net lease project with a long term net lease is all about
+ the credit of the tenant and the exit cap rate assumption.
+ A multi-tenant building with, for the most part, below investment grade
+ tenants should focus on market rents and reletting risks in the form of
+ vacancy, free rent, TIs and leasing commissions and your model should clearly
+ state (blue number) assumptions for each of those risk factors that allow
+ you to then stress or test the sensitivity of the model to those risk factors.
+\end_layout
+
+\begin_layout Standard
+What's important is contextual and there is no one right answer.
+ We expect your models to be clear in laying out the important risks of
+ the project and to then facilitate sensitivity analysis around those risks.
+ We have provided in the standard model some hooks for that.
+ We will help you customize the model for your situation if different risk
+ drivers are needed.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Bottom line: We expect you to articulate the important risks of a project
+ in the model design.
+ If it's an important risk, it must have a 
+\begin_inset Quotes eld
+\end_inset
+
+blue number
+\begin_inset Quotes erd
+\end_inset
+
+ assumption cell that can be used to drive sensitivity analysis in your
+ model.
+\end_layout
+
+\begin_layout Section
+Be Concise
+\end_layout
+
+\begin_layout Subsection
+Less is more
+\end_layout
+
+\begin_layout Standard
+Focus your detail on the important risk factors for the situation and reduce
+ detail elsewhere.
+ 
+\end_layout
+
+\begin_layout Standard
+Argus runs are useful, but the mountains of numbers spewed out from that
+ software cannot be confused for thoroughness or thoughtfulness.
+\end_layout
+
+\begin_layout Subsection
+Focus on big numbers
+\end_layout
+
+\begin_layout Subsubsection
+Rent
+\end_layout
+
+\begin_layout Standard
+Usually rent is the biggest aggregate life cycle number on your pro forma
+ and where a lot of your risk lies.
+\end_layout
+
+\begin_layout Subsubsection
+CapEx
+\end_layout
+
+\begin_layout Standard
+CapEx is usually the other big risk factor.
+ Incorporate your reserve study numbers in the forecast showing major expenditur
+es for chillers, elevators, roofs, parking lots and the like.
+ The model has a maintenance reserve feature that you should use.
+ You can set reserves as a memo item or actual cash balance (often required
+ by loans) in the model.
+ We often see models that understate reserves and likely CapEx.
+ Don't do that.
+\end_layout
+
+\begin_layout Subsection
+Summarize things that are homogenous or correlated
+\end_layout
+
+\begin_layout Standard
+If you have an apartment complex with studios, one bedrooms and two bedrooms,
+ it will usually make sense to group them by unit type and model occupancy
+ and revenue by category considering the popularity of the unit types.
+ 
+\end_layout
+
+\begin_layout Standard
+It's important to set operating expenses at realistic levels.
+ Your 
+\begin_inset Quotes eld
+\end_inset
+
+write up
+\begin_inset Quotes erd
+\end_inset
+
+ on a project should include information on how you set those budgets and
+ explain why they are reasonable.
+ But the detail on operating expenses may not be strategic in the context
+ of the investment pro forma.
+ Operating expenses are often modeled as increasing with a single cost inflation
+ factor; i.e.
+ they are modeled as 100% correlated.
+ If you think that is appropriate in your case (and it often is), then it
+ is preferable to combine the OpEx to a single line.
+ This makes it clear to the reader that you have treated OpEx as a homogenous
+ category.
+ In actual operations you will, of course, be much more granular but these
+ distinction may not be strategic in the context of acquisition pro forma.
+\end_layout
+
+\begin_layout Subsection
+Separate things that are heterogeneous and non-correlated
+\end_layout
+
+\begin_layout Standard
+If you are modeling a shopping center, you may want to show your major tenants
+ separately and your shop space combined.
+ CapEx is usually idiosyncratic and lumpy.
+ It is usually a good idea to show more detail CapEx.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Bottom Line: Show detail on important risk factors, significant non-correlated,
+ heterogeneous or idiosyncratic items.
+ Summarize everything else.
+\end_layout
+
+\begin_layout Section
+Distinguish 
+\begin_inset Quotes eld
+\end_inset
+
+facts
+\begin_inset Quotes erd
+\end_inset
+
+ from 
+\begin_inset Quotes eld
+\end_inset
+
+projections
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Most of the time when you buy property, you are buying subject to leases
+ and various contract rights.
+ So, in an office or shopping center situations you should segregate existing
+ leases (known rent subject only to credit risk) from assumed future leases
+ (market risk and credit risk).
+ Similarly, if you have, by way of example, long term fixed price leases
+ or maintenance contracts on building equipment, you should segregate that
+ so that you don't inadvertently change those numbers by changing a cost
+ inflation assumption.
+\end_layout
+
+\begin_layout Section
+Capital Markets Assumptions
+\end_layout
+
+\begin_layout Standard
+Capital markets influence outcomes, but they are beyond our control.
+ We have been in an extended period of low interest rates, but believe rates
+ will eventually return to historic norms.
+ We don't know when.
+ The forward curve provides information but has not recently been a reliable
+ forecast tool.
+ Generally, we will expect exit cap rates for a five to seven year horizon
+ to be at least 100bp wide of current values.
+ Interest rates for refinancing five to seven years out should be 200 to
+ 300 bp wide of current rates.
+\end_layout
+
+\begin_layout Section
+When do I need to submit a model in the ASRS format?
+\end_layout
+
+\begin_layout Itemize
+At 
+\begin_inset Quotes eld
+\end_inset
+
+initial certification
+\begin_inset Quotes erd
+\end_inset
+
+ stage.
+ This is when you are asking ASRS to start spending money on a project.
+\end_layout
+
+\begin_layout Itemize
+At 
+\begin_inset Quotes eld
+\end_inset
+
+final certification
+\begin_inset Quotes erd
+\end_inset
+
+.
+ A final acquisition case model will be archived with the RCLCO certification
+ report as part of the 
+\begin_inset Quotes eld
+\end_inset
+
+permanent file
+\begin_inset Quotes erd
+\end_inset
+
+ for the project.
+\end_layout
+
+\begin_layout Itemize
+We will ask you to prepare annual updates to the model as part of the annual
+ asset review
+\end_layout
+
+\begin_layout Section
+Questions and assistance
+\end_layout
+
+\begin_layout Standard
+Eric Glass is project leader on assisting you with implementation of these
+ models, but contact any of us.
+\end_layout
+
+\begin_layout Standard
+The ASRS private markets team is:
+\end_layout
+
+\begin_layout Itemize
+Karl Polen (karlp@azasrs.gov)
+\end_layout
+
+\begin_layout Itemize
+Kerry White (kerryw@azasrs.gov)
+\end_layout
+
+\begin_layout Itemize
+Eric Glass (ericg@azasrs.gov
+\end_layout
+
+\end_body
+\end_document
