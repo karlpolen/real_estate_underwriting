@@ -37,6 +37,9 @@ For every asset, we want to model a long term hold period even if the strategy i
 ### *Evolution of returns and risk*
 
 
+```
+## Warning: package 'zoo' was built under R version 3.4.4
+```
 
 Generally speaking, we are buying assets that are not currently stable and have some sort of value creation story.  As an asset moves through its value creation process, its risk and required returns change. We will illustrate through a simple example the measurement of returns on asset through time.
 
