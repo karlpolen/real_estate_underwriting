@@ -1,6 +1,6 @@
-This repository has a number of resources related to ASRS real estate underwriting.
+This repository has a number of resources for real estate underwriting.
 
-The following link takes you to a document describing ASRS real estate underwriting standards for existing buildings.  The project repository also contains excel files that illustrate the recommended calculations.  
+The following link takes you to a document describing real estate underwriting standards for existing buildings.  The project repository also contains excel files that illustrate the recommended calculations.  
 [Existing buildings underwriting](existing_buildings_underwriting.md)
 
 The following script illustrates a technique for modeling rent trends with business cycle considerations.
